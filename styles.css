@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e3e6e6;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #131921;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 60px;
+    text-align: center;
+    background: white;
+}
+
+/* PRODUCTS GRID */
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* PRODUCT CARD */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* LOGIN FORM */
+.form-container {
+    background: white;
+    margin: 20px auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: #ff9900;
+    border: none;
+    cursor: pointer;
+}
